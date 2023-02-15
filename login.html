@@ -1,0 +1,63 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SHOSCAPE</title>
+    
+        <!-- font awesome cdn link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    
+        <!-- costum css file link -->
+        <link href="css/styles.css" rel="stylesheet">
+    </head>
+    <body>
+        
+    <section class="headers">
+        <div class="headers-container">
+            <div class="login">
+                <div class="button-box">
+                    <div id="btns"></div>
+                    <button type="button" class="toggle-btn" onclick="login()">Log in</button>
+                    <button type="button" class="toggle-btn" onclick="signup()">Sign up</button>
+                </div>
+                <form id="login" class="input-group" action="connect.php" method="post">
+                    <input type="text" class="input-field" placeholder="User Id" required name="user_id">
+                    <input type="text" class="input-field" placeholder="Enter Password" required name="password">
+                    <input type="checkbox" class="chech-box"><span>Remember Password</span>
+                    <h4>Forgot Password?</h4>
+                    <button type="submit" class="submits-btn"> Log in</button>
+                </form>
+                <form id="signup" class="input-groups" action="http://localhost/phpmyadmin/index.php?route=/sql&server=1&db=register&table=login&pos=0" method="post">
+                    <input type="text" class="input-field" placeholder="Firstname" required name="firstName">
+                    <input type="text" class="input-field" placeholder="Lastname" required name="lastName">
+                    <input type="text" class="input-field" placeholder="User Id" required name="user_id">
+                    <input type="email" class="input-field" placeholder="email Id" required name="email_id">
+                    <input type="text" class="input-field" placeholder="Phone Number" required name="phone_number">
+                    <input type="text" class="input-field" placeholder="Enter Password" required name="password">
+                    <input type="checkbox" class="chech-boxs"><span>I agree to the term & conditions</span>
+                    <button type="submit" class="submit-btn"> sign up</button>
+                </form>
+            </div>
+        </div>
+    
+        <script>
+            var x = document.getElementById("login");
+            var y = document.getElementById("signup");
+            var z = document.getElementById("btns");
+    
+            function signup(){
+                x.style.left = "-400px";
+                y.style.left = "50px";
+                z.style.left = "110px";
+            }
+    
+            function login(){
+                x.style.left = "50px";
+                y.style.left = "450px";
+                z.style.left = "0px";
+            }
+        </script>
+    </section>
+</body>
+</html>

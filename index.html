@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOSCAPE</title>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <!-- costum css file link -->
+    <link href="css/styles.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="connect.php">
+</head>
+<body>
+    
+    <section id="header">
+        <a href="#"><img src="images/shoscapes-1.png" class="logo" alt=""></a>
+ 
+        <div>
+            <ul id="navbar">
+                <li><a class="active"href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+             
+                <a href="" id="close"><i class="fas fa-times"></i></a>
+            </ul> 
+        </div>
+        <div class="icon">
+            <i class="fas fa-user user" id="user" onclick="window.location.href='login.html';"></i>
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-shopping-cart" id="cart-btn" onclick="window.location.href='cart.html';"><span>0</span></i>
+        </div>
+        
+        <div id="mobile">
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+    </section>
+
+    <section id="hero">
+        <h2>Find the perfect pair <br>of shoes here that <br>fit to sport in <span>Shoscape</span></h2>
+        <button onclick="window.location.href='shop.html';">Shop Now</button>
+    </section>
+
+    <section id="product1" class="section-p1">
+
+        <h1>New <span>Arrivals</span></h1>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="images/new/jordan_react_elevation.png" alt="">
+                <div class="des">
+                    <span>Jordan</span>
+                    <h5>Michael Jordan Elevation</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$100</h4>
+                    <button class="bttn">Buy Now</button>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                <a href="#"><i class="fas fa-heart heart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="images/new/kyrie_6.png" alt="">
+                <div class="des">
+                    <span>Nike</span>
+                    <h5>Kyrie Irving 6</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$190</h4>
+                    <button class="bttn">Buy Now</button>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                <a href="#"><i class="fas fa-heart heart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="images/new/lebron_18.png" alt="">
+                <div class="des">
+                    <span>Nike</span>
+                    <h5>Lebron James 18 Pink</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$250</h4>
+                    <button class="bttn">Buy Now</button>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                <a href="#"><i class="fas fa-heart heart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="images/new/lebron_18_low.png" alt="">
+                <div class="des">
+                    <span>Nike</span>
+                    <h5>Lebron James 18 Black</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$120</h4>
+                    <button class="bttn">Buy Now</button>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                <a href="#"><i class="fas fa-heart heart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="images/new/nike_future_3.png" alt="">
+                <div class="des">
+                    <span>Nike</span>
+                    <h5>Stephen Curry 3</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$300</h4>
+                    <button class="bttn">Buy Now</button>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                <a href="#"><i class="fas fa-heart heart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="images/new/nike_precision_4_white.png" alt="">
+                <div class="des">
+                    <span>Nike</span>
+                    <h5>Paul George 4 White</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$90</h4>
+                    <button class="bttn">Buy Now</button>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                <a href="#"><i class="fas fa-heart heart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="images/new/nike_precision_4.png" alt="">
+                <div class="des">
+                    <span>Nike</span>
+                    <h5>Paul George 4 Black</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$90</h4>
+                    <button class="bttn">Buy Now</button>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                <a href="#"><i class="fas fa-heart heart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="images/new/nike_zoom.png" alt="">
+                <div class="des">
+                    <span>Nike</span>
+                    <h5>Stephen Curry</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$90</h4>
+                    <button class="bttn">Buy Now</button>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                <a href="#"><i class="fas fa-heart heart"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="banner" class="section-p1">
+        <h4>Repair Services</h4>
+        <h2>Up to <span>50% off</span> - All Shoes</h2>
+        <button>Explore More</button>
+    </section>
+
+    <section class="section-m1" id="popular-brand">
+        <h1 class="heading"> Popular <span>Brand</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="lbj" onclick="window.location.href='lbj.html';">
+                <img src="images/LBJ s.jpg" alt="">
+                <h3>Lebron James Shoes</h3>
+                </div>
+            </div>
+
+            <div class="box" onclick="window.location.href='irving.html';">
+                <img src="images/KI.jpg" alt="">
+                <h3>Kyrie Irving Shoes</h3>
+            </div>
+
+            <div class="box" onclick="window.location.href='mj.html';">
+                <img src="images/michael-jordan-nawpic-93.jpg" alt="">
+                <h3>Michael Jordan Shoes</h3>
+            </div>
+
+            <div class="box" onclick="window.location.href='curry.html';">
+                <img src="images/stephen curry.png" alt="">
+                <h3>Stephen Curry Shoes</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-m1" id="review">
+
+        <h1 class="heading"> Customer <span>Reviews</span></h1>
+        
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/reviews/quote-img.png" class="quote" alt="">
+                <p></p>
+                <img src="images/reviews/men.png" alt="" class="user">
+                <h3>juan dela crus</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/reviews/quote-img.png" class="quote" alt="">
+                <p></p>
+                <img src="images/reviews/men1.png" alt="" class="user">
+                <h3>juan dela crus</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/reviews/quote-img.png" class="quote" alt="">
+                <p></p>
+                <img src="images/reviews/men2.png" alt="" class="user">
+                <h3>juan dela crus</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/reviews/quote-img.png" class="quote" alt="">
+                <p></p>
+                <img src="images/reviews/man 4.png" alt="" class="user">
+                <h3>juan dela crus</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="section-m1" id="banners">
+        <div class="banner-box">
+            <h2>SEASONAL SALE</h2>
+            <h3>Nike Collection -40% OFF</h3>
+        </div>
+
+        <div class="banner-box banner-box2">
+            <h2>SEASONAL SALE</h2>
+            <h3>Jordan Collection -50% OFF</h3>
+        </div>
+
+        <div class="banner-box banner-box3">
+            <h2>SEASONAL SALE</h2>
+            <h3>Under Armour Collection -450% OFF</h3>
+        </div>
+    </section>
+
+    <section id="newsletter" class="section-p1">
+        <div class="newstext">
+            <h4>Sign Up for Newsletters</h4>
+            <p> Get E-mail updates about our latest shop and <span>sales</span></p>
+        </div>
+        <div class="form">
+            <input type="email" placeholder="Your email address..." required>
+            <button class="btn">Sign Up</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logos" src="images/shoscapes-1.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong>Sariaya, Quezon</p>
+            <p><strong>Phone: </strong>(+63) 987654321</p>
+
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-google"></i>
+                    <i class="fa-brands fa-google-play"></i>
+                    <i class="fa-brands fa-apple"></i>  
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign in</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Heartlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <button class="btn"><i class="fa-brands fa-apple"></i> Download</button>
+                <button class="btn"><i class="fa-brands fa-google-play"></i> Download</button>
+            </div>
+            <p>Secured Payment Gateways</p>
+            <div class="row">
+            <img class="gcash" src="images/gcash.png" alt="">
+            <img  class="paymaya" src="images/paymaya.png" alt="">
+            <img class="eleven" src="images/7_eleven.png" alt="">
+            <img class="bpi" src="images/bpi.png" alt="">
+            </div>
+        </div>
+
+    </footer>
+    <div id="copyright" class="section-p1">
+        <p><i class="fa-sharp fa-solid fa-copyright"></i> 2022 By Mr. Benitez, Mr. Magadia, Mr. Salazar </p>
+    </div>
+
+
+
+
+
+    <script src="js/script.js"></script>
+
+
+</body>
+</html>
